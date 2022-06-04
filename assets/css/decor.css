@@ -1,0 +1,35 @@
+* {
+    margin: 0;
+    padding: 0;
+
+}
+
+.container-image1 {
+    width: 80%;
+    height: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+
+.swiper {
+    width: 550px;
+    height: 10cm;
+    border-radius: 15%;
+}
+
+.swiper-slide img {
+    width: 550px;
+    height: 10cm;
+}
+
+.swiper .swiper-button-prev .swiper-button-next {
+    color: rgb(215, 10, 212);
+}
+
+.swiper .swiper-pagination-bullet-active {
+    color: white;
+    text-align: justify;
+}
